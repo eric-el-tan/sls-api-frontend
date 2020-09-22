@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sls-api-frontend"
+    }
+  },
+  "defaultProject": "sls-api-frontend",
+  "cli": {
+    "analytics": false
+  }
 }
