@@ -2,6 +2,8 @@
 
 <button (click)="getPosts()">Get Posts</button>
 
+<button (click)="getPost()">Get Post: 1</button>
+
 <div *ngFor="let post of posts | async">
   {{ post | json }}
 </div>
