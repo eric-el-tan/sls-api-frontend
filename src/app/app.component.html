@@ -1,8 +1,12 @@
 <h1>Angular HTTP Basics</h1>
 
-<button (click)="getPosts()">Get Posts</button>
+<button (click)="getProjects()">Get Projects</button>
 
-<button (click)="getPost()">Get Post: 1</button>
+<div *ngFor="let project of projects | async">
+  {{ project | json }}
+</div>
+
+<button (click)="getPosts()">Get Posts</button>
 
 <div *ngFor="let post of posts | async">
   {{ post | json }}

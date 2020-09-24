@@ -28,3 +28,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 - [Angular HTTP Client Quick Start](https://www.youtube.com/watch?v=_05v0mrNLh0)
+
+
+
+### COR policy
+- [Cross-Origin Resource Sharing (CORS)](https://web.dev/cross-origin-resource-sharing/)
+- [Set CORS in AWS](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-cors-console.html)
+- [Cross Origin Resource Sharing (CORS) - Explained with Example & Demo | API Gateway & Lambda](https://www.youtube.com/watch?v=baQh1X3LN5s)
